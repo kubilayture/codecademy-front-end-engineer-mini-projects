@@ -276,3 +276,51 @@ const dogFactory = (name, breed, weight) => {
         },
     };
 };
+
+// 13 - factorial()
+/* Write a function factorial() that takes a number as an argument and returns the factorial of the number. */
+
+const factorial = num => {
+    let val = 1;
+    for (let i = 2; i <= num; i++)
+        val = val * i;
+    return val;
+}
+
+// 14 - subLength()
+/* Write a function subLength() that takes 2 parameters, a string and a single character. The function should search the string for the two occurrences of the character and return the length between them including the 2 characters. If there are less than 2 or more than 2 occurrences of the character the function should return 0. */
+
+const subLength = (str, char) => {
+    let strChars = str.toLowerCase().split(""),
+        found = [],
+        length = 0;
+    strChars.forEach((val, index) => {
+        if (val === char) {
+            found.push(index);
+        }
+    });
+    if (found.length != 2) {
+        return length;
+    }
+    return str.slice(found[0], found[1]).length + 1;
+}
+
+// 15 - groceries()
+/* Write a function groceries() that takes an array of object literals of grocery items. The function should return a string with each item separated by a comma except the last two items should be separated by the word 'and'. Make sure spaces (' ') are inserted where they are appropriate.
+Example:
+groceries( [{item: 'Carrots'}, {item: 'Hummus'}, {item: 'Pesto'}, {item: 'Rigatoni'}] );
+// returns 'Carrots, Hummus, Pesto and Rigatoni' */
+
+const groceries = list => {
+    let listString = ''
+
+    for (let i = 0; i < list.length; i++) {
+        listString += list[i].item;
+        if (i < list.length - 2) {
+            listString += ', ';
+        } else if (i == list.length - 2) {
+            listString += ' and ';
+        }
+    }
+    return listString;
+}
