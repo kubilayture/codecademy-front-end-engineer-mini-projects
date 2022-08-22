@@ -6,4 +6,4 @@ Codecademy's Front-End Engineer Pro Career Path provides 129 lessons and 350 hou
 
 This repo includes mini projects that I made through Codecademy's Front-End Engineer Career Path.
 
-[Front-End-Engineer]: (https://www.codecademy.com/learn/paths/front-end-engineer-career-path)
+[Front-End-Engineer](https://www.codecademy.com/learn/paths/front-end-engineer-career-path)
