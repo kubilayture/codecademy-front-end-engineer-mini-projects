@@ -1,4 +1,4 @@
-## React Part 1 : Component Interacting
+## React Part 2 : Components Interacting
 
 ## Random Color Picker
 
