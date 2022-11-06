@@ -6,8 +6,8 @@ In this project, it'll be used functional React components to create an app that
 
 ## ScreenShots
 
-[!image](Screenshot%202022-11-06%20133258.png)
-[!image](Screenshot%202022-11-06%20133343.png)
-[!image](Screenshot%202022-11-06%20133544.png)
-[!image](Screenshot%202022-11-06%20133707.png)
-[!image](Screenshot%202022-11-06%20133721.png)
+![image info](Screenshot%202022-11-06%20133258.png)
+![image info](Screenshot%202022-11-06%20133343.png)
+![image info](Screenshot%202022-11-06%20133544.png)
+![image info](Screenshot%202022-11-06%20133707.png)
+![image info](Screenshot%202022-11-06%20133721.png)
